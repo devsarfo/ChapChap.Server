@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapChap.Core", "ChapChap.Core\ChapChap.Core.csproj", "{7CFC9CE9-0C06-4501-88E9-9C49819AD173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapChap.Web.Auth", "ChapChap.Web.Auth\ChapChap.Web.Auth.csproj", "{6002116B-BFFB-4730-9F16-EF0C54E0DF5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6B61DC96-D389-4A36-A5C3-AF4EBE1A69B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EBD1406B-BC56-496A-86EC-DCBE986CA219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CFC9CE9-0C06-4501-88E9-9C49819AD173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFC9CE9-0C06-4501-88E9-9C49819AD173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFC9CE9-0C06-4501-88E9-9C49819AD173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFC9CE9-0C06-4501-88E9-9C49819AD173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6002116B-BFFB-4730-9F16-EF0C54E0DF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6002116B-BFFB-4730-9F16-EF0C54E0DF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6002116B-BFFB-4730-9F16-EF0C54E0DF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6002116B-BFFB-4730-9F16-EF0C54E0DF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CFC9CE9-0C06-4501-88E9-9C49819AD173} = {6B61DC96-D389-4A36-A5C3-AF4EBE1A69B4}
+		{6002116B-BFFB-4730-9F16-EF0C54E0DF5E} = {EBD1406B-BC56-496A-86EC-DCBE986CA219}
+	EndGlobalSection
+EndGlobal
